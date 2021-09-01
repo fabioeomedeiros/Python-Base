@@ -1,0 +1,22 @@
+# Dissecando_uma_variável.py
+# Recebe do usuário uma entrada qualquer e exibe na tela seu tipo e várias outras análises
+
+print()
+A = input("Digite alguma coisa: ")
+print()
+print(f"O tipo primitivo de {A} é: {type(A)}")
+print()
+print(f"'{A}' só tem espaços? ", end="")
+print("SIM" if A.isspace() else "NÃO")
+print(f"'{A}' um número? ", end="")
+print("SIM" if A.isnumeric() else "NÃO")
+print(f"'{A}' é alfabético? ", end="")
+print("SIM" if A.isalpha() else "NÃO")
+print(f"'{A}' é alfanumérico? ", end="")
+print("SIM" if A.isalnum() else "NÃO")
+print(f"'{A}' está em maiúsculas? ", end="")
+print("SIM" if A.isupper() else "NÃO")
+print(f"'{A}' está em minúsculas? ", end="")
+print("SIM" if A.islower() else "NÃO")
+print(f"'{A}' está capitalizada? ", end="")
+print("SIM" if A.istitle() else "NÃO")
