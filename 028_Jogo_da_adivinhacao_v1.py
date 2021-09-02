@@ -1,5 +1,5 @@
 # 028_Jogo_da_adivinhacao.py
-#
+# Adivinha número pensado pelo computador
 
 from time import sleep
 from random import randint
