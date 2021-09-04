@@ -1,4 +1,6 @@
 #060_Calculo_fatorial.py
+#Calcula função fatorial através de biblioteca
+#loop FOR e loop WHILE
 
 from math import factorial
 
